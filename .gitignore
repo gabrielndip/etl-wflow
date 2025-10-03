@@ -33,7 +33,10 @@ data/
 *.log
 *.pid
 codex_logs/
-trino-server/
+
+# Trino server: track configs, ignore data contents
+trino-server/data/*
+!trino-server/data/.gitkeep
 
 # Node (if any)
 node_modules/
