@@ -1,0 +1,39 @@
+# OS
+.DS_Store
+
+# Python
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+*.pyc
+
+# Coverage/Reports
+.coverage
+htmlcov/
+
+# Editors/IDE
+.vscode/
+.idea/
+
+# Build Artifacts
+build/
+dist/
+*.egg-info/
+
+# Env/Secrets
+.env
+.env.*
+.envrc
+
+# Project Data/Logs
+data/
+*.log
+*.pid
+codex_logs/
+trino-server/
+
+# Node (if any)
+node_modules/
